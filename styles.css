@@ -15,7 +15,7 @@ img:hover { /* This transition fully inverts colors on mouse hover */
 }
 button /* Added button style with transition effects */
 {
-  transition: color 0.3s ease width 0.3s ease height 0.3s linear font-size 0.3s ease text-decoration 0.3s ease font-weight 0.3s ease font-color 0.3s ease;
+  transition: color 0.3s ease width 0.3s ease height 0.3s linear font-size 0.3s ease text-decoration 0.3s ease font-weight 0.3s ease font-color 0.3s ease font-style 0.3s ease;;
 }
 button:hover /* On hover, the button changes background color and text styles */
 {
@@ -26,4 +26,13 @@ button:hover /* On hover, the button changes background color and text styles */
   text-decoration: underline;
   font-weight: bold;
   color: red;
+  font-style: italic;
+}
+a /* Added link style with transition effects */
+{
+  transition: color 0.3s ease;
+}
+a:hover /* On hover, the link changes text color and background color */
+{
+  color: #FFA500; /* Orange text color */
 }
